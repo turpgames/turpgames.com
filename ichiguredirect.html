@@ -1,0 +1,9 @@
+<html><head><script>
+var isMobile = { Android: function() { return navigator.userAgent.match(/Android/i) ? true : false; }, iOS: function() { return navigator.userAgent.match(/iPhone|iPad|iPod/i) ? true : false; }};
+if (isMobile.Android())
+	document.location.href = "https://play.google.com/store/apps/details?id=com.turpgames.ichigu";
+else if (isMobile.iOS())
+	document.location.href = "https://itunes.apple.com/us/app/ichigu/id737312134";
+else
+	document.location.href = "http://www.turpgames.com/ichigu.html";
+</script></head><body></body></html>
